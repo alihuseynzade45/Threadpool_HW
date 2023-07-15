@@ -1,0 +1,19 @@
+﻿<Window x:Class="Threadpool_HW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Threadpool_HW"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="340" Width="800">
+    <Grid>
+        <Button Margin="0,0,620,200" Height="50" Width="140" Content="File..." FontSize="30" Click="File_Click"></Button>
+        <TextBox x:Name="TbFile" Margin="100,0,0,200" Height="50" Width="550" FontSize="30"></TextBox>
+        <Label Margin="0,0,620,0" Height="50" Width="140" Content="Password" FontSize="30"></Label>
+        <TextBox x:Name="TBpassword" Margin="100,0,0,0" Height="50" Width="550" FontSize="30"></TextBox>
+        <ProgressBar x:Name="ProgresBar" Margin="0,120,0,0" Height="40" Width="700" Background="Transparent"></ProgressBar>
+        <Button Margin="200,240,0,0" Height="50" Width="140" Content="Stars" FontSize="30" Click="Start_Click"></Button>
+        <Button Margin="500,240,0,0" Height="50" Width="140" Content="Cancel" FontSize="30" Click="Cancel_Click"></Button>
+
+    </Grid>
+</Window>
